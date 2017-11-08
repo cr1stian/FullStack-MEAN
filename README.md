@@ -27,3 +27,6 @@ POST /users/authenticate   // Gives back a token
 ```bash
 GET /users/profile         // Needs json web token to authorize
 ```
+
+## ScreenShot
+<img src="https://github.com/cr1stian/FullStack-MEAN/blob/master/screenshot.png?raw=true">
