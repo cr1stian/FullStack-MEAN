@@ -1,0 +1,10 @@
+<div>
+  <ul>
+    <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}" ><a [routerLink]="['/']"><b>Blogger</b></a></li>
+    <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}" style="float:right"><a class="logout" (click)="onLogoutClick()">Logout</a></li>
+    <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}" style="float:right"><a [routerLink]="['/profile']">Profile</a></li>
+    <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}" style="float:right"><a [routerLink]="['/dashboard']">Dashboard</a></li>
+    <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}" style="float:right"><a [routerLink]="['/login']">Login</a></li>
+    <li [routerLinkActive]="['active']" [routerLinkActiveOptions]="{exact:true}" style="float:right"><a [routerLink]="['/register']">Register</a></li>
+  </ul>
+</div>
